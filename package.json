@@ -10,11 +10,13 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "@types/jest": "^28.1.6",
+    "@types/jest": "^27.4.1",
     "commitizen": "^4.2.5",
     "cz-conventional-changelog": "^3.3.0",
     "cz-customizable": "^6.9.1",
-    "jest": "^27.5.1"
+    "jest": "^27.5.1",
+    "ts-jest": "^27.1.4",
+    "typescript": "^4.6.3"
   },
   "config": {
     "commitizen": {
