@@ -127,7 +127,8 @@ module.exports = {
   // setupFiles: [],
 
   // A list of paths to modules that run some code to configure or set up the testing framework before each test
-  // setupFilesAfterEnv: [],
+  // 设置后，jest-setup.ts会在每个测试文件执行前先执行一次。相当于每执行一次测试，都会在全局添加一次 localStorage 的 Mock 实现。
+  setupFilesAfterEnv: ["./tests/jest-setup.ts"],
 
   // The number of seconds after which a test is considered as slow and reported as such in the results.
   // slowTestThreshold: 5,
