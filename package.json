@@ -16,6 +16,7 @@
     "cz-customizable": "^6.9.1",
     "jest": "^27.5.1",
     "jest-environment-jsdom-global": "^3.0.0",
+    "jest-location-mock": "^1.0.9",
     "ts-jest": "^27.1.4",
     "typescript": "^4.6.3"
   },
