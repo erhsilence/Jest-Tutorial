@@ -8,7 +8,7 @@ describe("after1000ms", () => {
   it("可以在 1000ms 后自动执行函数", () => {
     jest.spyOn(global, "setTimeout");
     const callback = jest.fn();
-    
+
     expect(callback).not.toHaveBeenCalled();
 
     after1000ms(callback);
